@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Outfit",sans-serif;
 }
 
 body{
@@ -29,13 +32,25 @@ a{
 }
 .btn img{
     width: 20px;
-    margin left: 10px; 
-}
+    margin-left: 10px; 
+}  
 .btn.dark-btn{
-    background:#212EA0;
-    color: :#fff;
+    background: rgb(20, 20, 139);
+    color :#fff;
 }
 .container{
     padding-left: 10% ;
     padding-right: 10%;
 }
+
+
+
+ @media(max-width: 1200px){
+    .con tainer{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .btn{
+        padding:14px 22px ;
+    }
+ }

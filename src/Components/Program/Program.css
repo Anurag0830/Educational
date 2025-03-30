@@ -22,7 +22,7 @@ justify-content: space-between;
     left:0;
     bottom: 0;
     right:0;
-    background: rgba(0,15,152,0.3);
+    background: rgb(20, 20, 139);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -41,3 +41,14 @@ justify-content: space-between;
  .caption{
     opacity: 1;
 padding-top: 0;}  
+
+@media(max-width: 650px){
+   .programs{
+      flex-direction: column;
+   }
+   .program{
+      flex-basis: 100%;
+      margin: 20px;
+   }
+
+}

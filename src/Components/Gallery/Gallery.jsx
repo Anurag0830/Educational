@@ -17,10 +17,10 @@ const Gallery = () => {
         <img src={ gallery_3} alt=''/>
 
         <img src={ gallery_4} alt=''/>
-        <button classname = 'btn'> See more here <img src={whitearrow} alt=""/> </button>
+      </div>
+                
+        <button className = 'btn dark-btn '> See more here <img src={whitearrow} alt=""/> </button>
 
-        </div>
-       
 
       </div>
 

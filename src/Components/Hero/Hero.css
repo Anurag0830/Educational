@@ -11,7 +11,7 @@
     
 }
 .hero-text{
-    
+   
     text-align: center;
     max-width:  800px; ;
 }
@@ -22,9 +22,24 @@
 
 }
 .hero-text p{
-   
+    margin-top: 10px;
     max-width: 700px;
     margin: 10px auto 20 px;
     line-height: 1.4;
    
 }
+
+ @media ( max-width : 650px){
+        .hero-text h1{
+            font-size: 30px;
+            max-width: 400px ;
+            margin: auto;
+
+        }
+        .hero-text p {
+            font-size: 14px;
+            margin: 15px auto 30px;
+        }
+    }
+ 
+
