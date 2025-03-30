@@ -8,7 +8,9 @@ import Gallery from './Components/Gallery/Gallery'
 import Testimonials from './Components/Testimonials/Testimonials'
 import Contact from './Components/Contact/Contact' 
 import Footer from './Components/Footer/Footer'
-import Videoplayer from './Components/Videoplayer/videoplayer'
+import VideoPlayer from "./Components/Videoplayer/VideoPlayer";
+
+
 
 const App = () => {
   const [playState, setPlayState]= useState(false);
@@ -32,7 +34,7 @@ const App = () => {
      
 
     </div>
-    <Videoplayer playState={playState} setPlayState={setPlayState}/>
+    <VideoPlayer playState={playState} setPlayState={setPlayState}/>
     </div>
   )
 }
